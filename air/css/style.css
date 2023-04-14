@@ -31,6 +31,15 @@ html{
   -o-transition: 0.5s;
   transition: 0.5s;
 }
+.box-shadow {
+  /*font-family: cursive, sans-serif;*/
+  background-color: #ffffff;
+  /*color: rgb(0, 0, 0);*/
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 70px;
+  box-shadow: 0.5px 0.5px 5px 12px #d5d5db;
+}
 .offcanvas #page {
   overflow: hidden;
   position: absolute;
