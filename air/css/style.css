@@ -36,6 +36,16 @@ html{
   margin-right: auto;
   width: 95%;
 }
+.blog-style{
+  position: relative;
+  min-height: 1px;
+  padding-left: 0%;
+  padding-right: 15%;
+  margin-left: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 95%;
+}
 .box-shadow {
   /*font-family: cursive, sans-serif;*/
   background-color: #ffffff;
