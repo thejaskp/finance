@@ -51,13 +51,17 @@ html{
   background-color: #ffffff;
   /*color: rgb(0, 0, 0);*/
   padding: 10px;
-  max-width : 90%;
+  max-width : 95%;
   margin-left: auto;
   margin-right: auto;
-  height: 200px;
+  height: 10%;
   border-radius: 4px;
   margin-bottom: 70px;
-  box-shadow: 0.5px 0.5px 5px 12px #d5d5db;
+  box-shadow: 0.3px 0.3px 3px 8px #e8e8ed;
+}
+.box-shadow:hover{
+  
+  box-shadow: 0.1px 0.1px 1px 5px #e8e8ed;
 }
 .offcanvas #page {
   overflow: hidden;
