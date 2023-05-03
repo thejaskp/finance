@@ -59,6 +59,7 @@ html{
 .box-shadow:hover{
   background-color: #e8e8ed;
   box-shadow: 10px 10px 7px #d3d3d6;
+  margin-top: -10px;
 
 }
 .offcanvas #page {
