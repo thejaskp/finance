@@ -55,16 +55,23 @@ html{
   border-radius: 4px;
   margin-bottom: 70px;
   border: 2px solid  #c3c3c8;
+  transition-duration: .3s; 
 }
 .box-shadow:hover{
   background-color: #e8e8ed;
   box-shadow: 10px 10px 7px #d3d3d6;
   margin-top: -10px;
-
+  transition-duration: .3s; 
+}
+.blog-head{
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 95%;
 }
 .offcanvas #page {
   overflow: hidden;
   position: absolute;
+  background: #193A63;
 }
 .offcanvas #page:after {
   -webkit-transition: 2s;
@@ -76,7 +83,7 @@ html{
   bottom: 0;
   left: 0;
   z-index: 101;
-  background: rgba(0, 0, 0, 0.7);
+  background: #193A63;
   content: "";
 }
 
