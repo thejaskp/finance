@@ -164,7 +164,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::-moz-selection {
   color: $brand-white;
-  background: $brand-primary;
+  background: #5bc0de;
 }
 ::selection {
   color: $brand-white;
@@ -1109,7 +1109,7 @@ input[type="text"] {
 	position: absolute;
 	z-index: 1901;
 	width: 270px;
-	background: lighten($brand-black, 0%);
+	background: lighten($brand-tertiary, 0%);
 	top: 0;
 	right: 0;
 	top: 0;
@@ -1152,7 +1152,7 @@ input[type="text"] {
 						@include icomoon;
 						content: "\ebfc";
 						font-size: 20px;
-						color: rgba(255,255,255,.2);
+						color: rgb(255, 255, 255);
 						@include transition(.5s);
 					}
 				}
